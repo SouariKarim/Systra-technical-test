@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Test technique</title>
+  </head>
+  <body>
+    <form id="my-form">
+      <label for="col">Enter the number of rows</label>
+      <input id="col" type="text" name="in" placeholder="" required />
+      <label for="col">Enter the number of columns</label>
+      <input id="row" type="text" name="in" placeholder="" required />
+      <label for="col"
+        >Enter the number of colors ( 🚫 The highest allowed number is 9 )
+      </label>
+      <input
+        id="color"
+        type="text"
+        name="in"
+        placeholder=""
+        required
+        maxlength="6"
+      />
+      <button type="submit">Calculate !!</button>
+    </form>
+    <div id="table"></div>
+    <div id="result"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
